@@ -14,6 +14,12 @@ for item in menu: print("- " + item)
 
 order = input("Please enter your order: ") 
 
-if order in menu: print("Great choice, " + name + "! Your " + order + " will be ready shortly.") 
+cost = 5
+
+amount = input("How many would you like?")
+
+total = cost * int(amount)
+
+if order in menu: print("\nGreat choice, " + name + "! \nYour " + order + " will cost" + " £" + str(total) + "\nIt will be ready shortly" ) 
 
 else: print("Sorry, we don't have that on the menu. Please choose from the available options.")
