@@ -1,0 +1,48 @@
+
+# Virtualenvs
+.venv/
+env/
+venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checkers / caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment / secrets
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite / local DBs
+*.sqlite3
+
+# Logs
+*.log
+
