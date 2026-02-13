@@ -1,4 +1,4 @@
-from data_models import Device, Interface, IPAddress
+from data_models import device, Interface, IPAddress
 
 
 def convert_to_device_model(device_json, interfaces_json, ips_json):
