@@ -31,8 +31,8 @@ get_device()
 
 
 
-raw_interfaces = get_interfaces(raw_device["id"])
-raw_ips = get_ip_addresses(raw_device["id"])
+#raw_interfaces = get_interfaces(raw_device["id"])
+#raw_ips = get_ip_addresses(raw_device["id"])
 
 device = convert_to_device_model(raw_device, raw_interfaces, raw_ips)
 

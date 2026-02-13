@@ -26,11 +26,11 @@ def convert_to_device_model(device_json, interfaces_json, ips_json):
         for ip in ips_json
     ]
 
-    return Device(
+    return device(
         hostname=hostname,
         role=role,
         site=site,
         mgmt_ip=mgmt_ip,
-        interfaces=interfaces,
-        ip_addresses=ip_addresses
+    #    interfaces=interfaces,
+    #    ip_addresses=ip_addresses
     )
